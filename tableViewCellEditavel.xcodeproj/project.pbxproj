@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC9185F20819F75005B26BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9185E20819F75005B26BD /* AppDelegate.swift */; };
+		AEC9186120819F75005B26BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9186020819F75005B26BD /* ViewController.swift */; };
+		AEC9186420819F75005B26BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC9186220819F75005B26BD /* Main.storyboard */; };
+		AEC9186620819F77005B26BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC9186520819F77005B26BD /* Assets.xcassets */; };
+		AEC9186920819F77005B26BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC9186720819F77005B26BD /* LaunchScreen.storyboard */; };
+		AEC9187420819F77005B26BD /* tableViewCellEditavelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9187320819F77005B26BD /* tableViewCellEditavelTests.swift */; };
+		AEC9187F20819F77005B26BD /* tableViewCellEditavelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9187E20819F77005B26BD /* tableViewCellEditavelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEC9187020819F77005B26BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC9185320819F75005B26BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC9185A20819F75005B26BD;
+			remoteInfo = tableViewCellEditavel;
+		};
+		AEC9187B20819F77005B26BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEC9185320819F75005B26BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC9185A20819F75005B26BD;
+			remoteInfo = tableViewCellEditavel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEC9185B20819F75005B26BD /* tableViewCellEditavel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewCellEditavel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC9185E20819F75005B26BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEC9186020819F75005B26BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEC9186320819F75005B26BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC9186520819F77005B26BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC9186820819F77005B26BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC9186A20819F77005B26BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC9186F20819F77005B26BD /* tableViewCellEditavelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewCellEditavelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC9187320819F77005B26BD /* tableViewCellEditavelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCellEditavelTests.swift; sourceTree = "<group>"; };
+		AEC9187520819F77005B26BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC9187A20819F77005B26BD /* tableViewCellEditavelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewCellEditavelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC9187E20819F77005B26BD /* tableViewCellEditavelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCellEditavelUITests.swift; sourceTree = "<group>"; };
+		AEC9188020819F77005B26BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC9185820819F75005B26BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC9186C20819F77005B26BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC9187720819F77005B26BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEC9185220819F75005B26BD = {
+			isa = PBXGroup;
+			children = (
+				AEC9185D20819F75005B26BD /* tableViewCellEditavel */,
+				AEC9187220819F77005B26BD /* tableViewCellEditavelTests */,
+				AEC9187D20819F77005B26BD /* tableViewCellEditavelUITests */,
+				AEC9185C20819F75005B26BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC9185C20819F75005B26BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9185B20819F75005B26BD /* tableViewCellEditavel.app */,
+				AEC9186F20819F77005B26BD /* tableViewCellEditavelTests.xctest */,
+				AEC9187A20819F77005B26BD /* tableViewCellEditavelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC9185D20819F75005B26BD /* tableViewCellEditavel */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9185E20819F75005B26BD /* AppDelegate.swift */,
+				AEC9186020819F75005B26BD /* ViewController.swift */,
+				AEC9186220819F75005B26BD /* Main.storyboard */,
+				AEC9186520819F77005B26BD /* Assets.xcassets */,
+				AEC9186720819F77005B26BD /* LaunchScreen.storyboard */,
+				AEC9186A20819F77005B26BD /* Info.plist */,
+			);
+			path = tableViewCellEditavel;
+			sourceTree = "<group>";
+		};
+		AEC9187220819F77005B26BD /* tableViewCellEditavelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9187320819F77005B26BD /* tableViewCellEditavelTests.swift */,
+				AEC9187520819F77005B26BD /* Info.plist */,
+			);
+			path = tableViewCellEditavelTests;
+			sourceTree = "<group>";
+		};
+		AEC9187D20819F77005B26BD /* tableViewCellEditavelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9187E20819F77005B26BD /* tableViewCellEditavelUITests.swift */,
+				AEC9188020819F77005B26BD /* Info.plist */,
+			);
+			path = tableViewCellEditavelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC9185A20819F75005B26BD /* tableViewCellEditavel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC9188320819F77005B26BD /* Build configuration list for PBXNativeTarget "tableViewCellEditavel" */;
+			buildPhases = (
+				AEC9185720819F75005B26BD /* Sources */,
+				AEC9185820819F75005B26BD /* Frameworks */,
+				AEC9185920819F75005B26BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tableViewCellEditavel;
+			productName = tableViewCellEditavel;
+			productReference = AEC9185B20819F75005B26BD /* tableViewCellEditavel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEC9186E20819F77005B26BD /* tableViewCellEditavelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC9188620819F77005B26BD /* Build configuration list for PBXNativeTarget "tableViewCellEditavelTests" */;
+			buildPhases = (
+				AEC9186B20819F77005B26BD /* Sources */,
+				AEC9186C20819F77005B26BD /* Frameworks */,
+				AEC9186D20819F77005B26BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC9187120819F77005B26BD /* PBXTargetDependency */,
+			);
+			name = tableViewCellEditavelTests;
+			productName = tableViewCellEditavelTests;
+			productReference = AEC9186F20819F77005B26BD /* tableViewCellEditavelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEC9187920819F77005B26BD /* tableViewCellEditavelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC9188920819F77005B26BD /* Build configuration list for PBXNativeTarget "tableViewCellEditavelUITests" */;
+			buildPhases = (
+				AEC9187620819F77005B26BD /* Sources */,
+				AEC9187720819F77005B26BD /* Frameworks */,
+				AEC9187820819F77005B26BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC9187C20819F77005B26BD /* PBXTargetDependency */,
+			);
+			name = tableViewCellEditavelUITests;
+			productName = tableViewCellEditavelUITests;
+			productReference = AEC9187A20819F77005B26BD /* tableViewCellEditavelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC9185320819F75005B26BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Humberto Puccinelli";
+				TargetAttributes = {
+					AEC9185A20819F75005B26BD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AEC9186E20819F77005B26BD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AEC9185A20819F75005B26BD;
+					};
+					AEC9187920819F77005B26BD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AEC9185A20819F75005B26BD;
+					};
+				};
+			};
+			buildConfigurationList = AEC9185620819F75005B26BD /* Build configuration list for PBXProject "tableViewCellEditavel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC9185220819F75005B26BD;
+			productRefGroup = AEC9185C20819F75005B26BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC9185A20819F75005B26BD /* tableViewCellEditavel */,
+				AEC9186E20819F77005B26BD /* tableViewCellEditavelTests */,
+				AEC9187920819F77005B26BD /* tableViewCellEditavelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC9185920819F75005B26BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9186920819F77005B26BD /* LaunchScreen.storyboard in Resources */,
+				AEC9186620819F77005B26BD /* Assets.xcassets in Resources */,
+				AEC9186420819F75005B26BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC9186D20819F77005B26BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC9187820819F77005B26BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC9185720819F75005B26BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9186120819F75005B26BD /* ViewController.swift in Sources */,
+				AEC9185F20819F75005B26BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC9186B20819F77005B26BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9187420819F77005B26BD /* tableViewCellEditavelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC9187620819F77005B26BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC9187F20819F77005B26BD /* tableViewCellEditavelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEC9187120819F77005B26BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC9185A20819F75005B26BD /* tableViewCellEditavel */;
+			targetProxy = AEC9187020819F77005B26BD /* PBXContainerItemProxy */;
+		};
+		AEC9187C20819F77005B26BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC9185A20819F75005B26BD /* tableViewCellEditavel */;
+			targetProxy = AEC9187B20819F77005B26BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEC9186220819F75005B26BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC9186320819F75005B26BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC9186720819F77005B26BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC9186820819F77005B26BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEC9188120819F77005B26BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEC9188220819F77005B26BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC9188420819F77005B26BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = tableViewCellEditavel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.tableViewCellEditavel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEC9188520819F77005B26BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = tableViewCellEditavel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.tableViewCellEditavel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEC9188720819F77005B26BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = tableViewCellEditavelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.tableViewCellEditavelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewCellEditavel.app/tableViewCellEditavel";
+			};
+			name = Debug;
+		};
+		AEC9188820819F77005B26BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = tableViewCellEditavelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.tableViewCellEditavelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewCellEditavel.app/tableViewCellEditavel";
+			};
+			name = Release;
+		};
+		AEC9188A20819F77005B26BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = tableViewCellEditavelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.tableViewCellEditavelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tableViewCellEditavel;
+			};
+			name = Debug;
+		};
+		AEC9188B20819F77005B26BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F422CPL772;
+				INFOPLIST_FILE = tableViewCellEditavelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.tableViewCellEditavelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tableViewCellEditavel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC9185620819F75005B26BD /* Build configuration list for PBXProject "tableViewCellEditavel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC9188120819F77005B26BD /* Debug */,
+				AEC9188220819F77005B26BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC9188320819F77005B26BD /* Build configuration list for PBXNativeTarget "tableViewCellEditavel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC9188420819F77005B26BD /* Debug */,
+				AEC9188520819F77005B26BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC9188620819F77005B26BD /* Build configuration list for PBXNativeTarget "tableViewCellEditavelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC9188720819F77005B26BD /* Debug */,
+				AEC9188820819F77005B26BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC9188920819F77005B26BD /* Build configuration list for PBXNativeTarget "tableViewCellEditavelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC9188A20819F77005B26BD /* Debug */,
+				AEC9188B20819F77005B26BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC9185320819F75005B26BD /* Project object */;
+}
